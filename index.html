@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Gerador de senha">
+    <meta name='author' content="João Vitor de Souza">
+    <title>Gerador de senha</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <main>
+        <section class="hero">
+            <h1>Gerador de senha</h1>
+            <p>Utilize nosso gerador online para criar uma senha forte e segura</p>
+        </section>
+        <section class="container-password">
+            <div class="container-input">
+                <input type="text" name="password" id="password" autocomplete="off">
+                <i id="copy" class="bi bi-copy"></i>
+                <i id="update" class="bi bi-arrow-clockwise"></i>
+                <div id="bar" class="bar"></div>
+            </div>
+        </section>
+        <section class="container-config">
+            <div class="config">
+                <h2>Personalizar</h2>
+                <div class="segurity">
+                    <div class="input-range">
+                        <p>Tamaho <span id="password-length-text">16</span></p>
+                        <input type="range" name="password-length" id="password-length" class="password-length"
+                            value="16" min="8" max="64">
+                    </div>
+                    <div class="actions">
+                        <label class="container-box">
+                            Maíuscula
+                            <input type="checkbox" id="uppercase" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container-box">
+                            Números
+                            <input type="checkbox" id="numbers" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container-box">
+                            Simbolos
+                            <input type="checkbox" id="simbols" checked>
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button id="btn-enviar">Gerar senha</button>
+    </main>
+</body>
+
+</html>

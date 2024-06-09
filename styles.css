@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #f8fafd;
+    color: #252525;
+    font-family: 'inter', Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(1.0);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+main .hero h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+main .hero p {
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.container-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.container-input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 6px 10px 15px 0px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.container-input i {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+
+.container-input i:hover {
+    opacity: 1;
+}
+
+.container-input #password {
+    font-size: 34px;
+    outline: none;
+    padding: 10px 30px;
+    width: 100%;
+    height: 52px;
+    border: none;
+    background: none;
+    user-select: none;
+    cursor: default;
+    transition: 0.2s ease-in-out;
+}
+
+.container-input #password.font-sm {
+    font-size: 2rem;
+    transition: 0.2s ease-in-out;
+}
+
+.container-input #password.font-xm {
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.container-input #password.font-xxm {
+    font-size: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.container-input .bar {
+    position: absolute;
+    bottom: 0;
+    background-color: #ddd;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 90%;
+    height: 8px;
+    transition: all 0.2s;
+}
+
+.container-input .bar.completed {
+    border-top-right-radius: 0;
+}
+
+.container-input .bar.critical {
+    background-color: #eb5757;
+}
+
+.container-input .bar.warning {
+    background-color: #f2c94c;
+}
+
+.container-input .bar.safe {
+    background-color: #27ae60;
+}
+
+.container-config {
+    text-align: left;
+    padding: 1rem 1.5rem;
+    background-color: #fff;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container-config .config h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1.75rem;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+
+.config .segurity {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.config .segurity .input-range {
+    flex: 1;
+}
+
+.config .segurity .input-range p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.config .segurity .input-range .password-lengt {
+    cursor: pointer;
+    appearance: none;
+    background-color: #ddd;
+    border-radius: 8px;
+    width: 100%;
+    height: 10px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.config .segurity .input-range .password-length:hover {
+    opacity: 1;
+}
+
+.config .segurity .input-range .password-length::-webkit-slider-thumb {
+    appearance: none;
+    background: #9b51e0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.config .segurity .container-box {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 16px;
+}
+
+.config .segurity .container-box input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.config .segurity .container-box .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #ddd;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.container-box:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.config .segurity .container-box input:checked ~ .checkmark {
+    background-color: #9b51e0;
+}
+
+.container-box .checkmark::after {
+    content: "";
+    opacity: 0;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    transition: 0.2s all;
+}
+
+.container-box input:checked ~ .checkmark::after {
+    opacity: 1;
+}
+
+main #btn-enviar {
+    border: none;
+    background-color: #bb6bb9;
+    color: white;
+    cursor: pointer;
+    padding: 12px 30px;
+    border-radius: 5px;
+    width: 150px;
+    max-width: 80%;
+    transition: 0.2s ease-in-out;
+}
+
+main #btn-enviar:hover {
+    animation: slide 1s linear alternate infinite;
+}
+
+@media (width < 480px) {
+
+    .container-input #password {
+        font-size: 1.5rem;
+        outline: none;
+        padding: 10px 30px;
+        width: 100%;
+        height: 52px;
+        border: none;
+        background: none;
+        user-select: none;
+        cursor: default;
+    }
+    
+    .container-input #password.font-sm {
+        font-size: 1.5rem;
+    }
+    
+    .container-input #password.font-xm {
+        font-size: 1rem;
+    }
+    
+    .container-input #password.font-xxm {
+        font-size: 1rem;
+        
+    }
+}
