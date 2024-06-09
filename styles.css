@@ -163,7 +163,7 @@ main .hero p {
     margin-bottom: 15px;
 }
 
-.config .segurity .input-range .password-lengt {
+.config .segurity .input-range .password-length {
     cursor: pointer;
     appearance: none;
     background-color: #ddd;
