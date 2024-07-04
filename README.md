@@ -7,7 +7,7 @@ Ele tem o objetivo de criar senhas fortes e seguras com no minimo 8 até 64 cara
 
 ### ⚙ Guia de instalação
 
-Apenas ter um navegador instalado em sua maquina e acessar o site apartir deste <a href='https://github.com/JoaoVitor2004/gerador-de-senha'>endereço</a>
+Apenas ter um navegador instalado em sua maquina e acessar o site apartir deste <a href='https://JoaoVitor2004.github.io/gerador-de-senha'>endereço</a>
 
 
 ### 🛠 Tecnologias utilizadas
