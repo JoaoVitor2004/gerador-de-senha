@@ -4,7 +4,7 @@
 
 ## 🎯 Introdução
 
-Desenvolvido um gerador de senha forte e segura estando responsivo a diversos dispositivos, ele possui um input para informar o nome do usuario e um botão para enviar, quando o campo do input está vazio ele alerta o usuario para preencher o campo, assim que é enviado ele mostra algumas informações do usuario em um menu lateral.
+Desenvolvido um gerador de senha forte e segura estando responsivo a diversos dispositivos, ele possui um slider e quando o usuario interagi ele gera uma senha aleatoria, tambem tem checkbos para deixar a senha mais segura e forte, e dois icones um para copiar a senha e o outro para gerar uma outra, e um botão para copiar a senha.
 
 ## ⚙️ Acessar o projeto
 
