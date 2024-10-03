@@ -1,24 +1,28 @@
-![Capa gerador de senha](https://github.com/JoaoVitor2004/gerador-de-senha/assets/143558833/be223deb-bf05-45ee-aabb-5d96e897c82d)
+# Gerador de senha
+
+![gerador-de-senha](https://github.com/user-attachments/assets/4824d95b-de8a-4c0f-83ac-6f837653b7fd)
 
 ## 🎯 Introdução
-Ele tem o objetivo de criar senhas fortes e seguras com no minimo 8 até 64 caracteres para o usuario escolher, e com opções de maíuscula, números e simbolos para o usuario selecionar.
 
-### ⚙ Guia de instalação
+Desenvolvido um gerador de senha forte e segura estando responsivo a diversos dispositivos, ele possui um input para informar o nome do usuario e um botão para enviar, quando o campo do input está vazio ele alerta o usuario para preencher o campo, assim que é enviado ele mostra algumas informações do usuario em um menu lateral.
 
-Apenas ter um navegador instalado em sua maquina e acessar o site apartir deste <a href='https://JoaoVitor2004.github.io/gerador-de-senha'>endereço</a>
+## ⚙️ Acessar o projeto
 
+ir direto na barra de endereço do navegador acima e colocar o seguinte endereço <code><a href='https://JoaoVitor2004.github.io/gerador-de-senha'>https://JoaoVitor2004.github.io/gerador-de-senha</a></code>
 
-### 🛠 Tecnologias utilizadas
+## ⚒️ Tecnologias utilizadas
 
 <div>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo da linguagem HTML">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo da linguagem CSS">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="logo da linguagem JAVASCRIPT">
-  <img src='https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white' alt='logo do TYPESCRIPT'
+  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='logo do HTML'/>
+  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='logo do CSS'/>
+  <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black' alt='logo do JAVASCRIPT'/>
+  <img src='https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white' alt='logo do TYPESCRIPT'/>
 </div>
 
-### 👨‍💻 Autores / Colaboradores
-- **João Vitor** - Frontend do projeto - [João Vitor](https://www.linkedin.com/in/jo%C3%A3o-vitor-souzaa/)
+## 👨‍💻 Autores / Colaboradores
 
-### 📃 Licença
-Este projeto está sob a licença [MIT]()
+- **João Vitor** - frontend do projeto - [João Vitor](https://www.linkedin.com/in/jo%C3%A3o-vitor-souza-28297632a)
+
+## 📃 Licensa
+
+Este projeto está sob a licensa [MIT](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT)
